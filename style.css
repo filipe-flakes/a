@@ -1,0 +1,142 @@
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização da logo do Google */
+.google-logo {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* Barra de pesquisa */
+.search-box input {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    text-align: center;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Container dos resultados */
+.results {
+    margin-top: 30px;
+    text-align: left;
+    display: inline-block;
+    width: 600px;
+}
+
+/* Cada resultado de pesquisa */
+.result {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #dfe1e5;
+}
+
+/* Título do resultado */
+.result h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Links dos resultados (azul do Google) */
+.result a {
+    text-decoration: none;
+    color: #1a0dab;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result a:hover {
+    text-decoration: underline;
+}
+
+/* Descrição dos resultados */
+.result p {
+    font-size: 14px;
+    color: #4d5156;
+    margin: 5px 0 0 0;
+}
+
+.marca-dagua {
+    position: fixed; /* Fixa no canto superior direito da tela */
+    top: 10px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    color: rgba(0, 0, 0, 0.5); /* Preto mais aparente para a marca d'água */
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    font-weight: bold; /* Negrito para melhor visualização */
+    user-select: none; /* Evita que o texto seja selecionado */
+    z-index: 100; /* Garante que fique visível acima de outros elementos */
+}
+
+/* Define o fundo preto para toda a página */
+body {
+    background-color: white; /* Branco */
+    color: black; /* Texto preto para contraste */
+}
+
+/* Estiliza a barra de pesquisa */
+.search-container input {
+    background-color: #fff; /* Branco */
+    color: #fff; /* Texto branco */
+    border: 1px solid #555; /* Borda mais sutil */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Quando o usuário clica na barra de pesquisa */
+.search-container input:focus {
+    outline: none;
+    border-color: #1E90FF; /* Azul para destacar o foco */
+}
+
+/* Placeholder (texto dentro da barra antes de digitar) */
+.search-container input::placeholder {
+    color: #bbb; /* Cinza claro para diferenciar do texto digitado */
+}
+
+/* Resultados da pesquisa */
+.resultado {
+    background-color: #f9f9f9; /* Fundo claro para os resultados */
+    border: 1px solid #333; /* Borda sutil */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Links dos resultados da pesquisa */
+.resultado a {
+    color: #0000EE; /* Azul padrão para os links */
+}
+
+.resultado a:hover {
+    color: #FFD700; /* Amarelo quando passar o mouse */
+}
+
+/* Estilo do botão "Voltar" */
+.voltar-button {
+    padding: 15px 30px; /* Aumenta o padding para maior área clicável */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    border: none; /* Remove a borda padrão */
+    border-radius: 25px; /* Arredonda os cantos */
+    background-color: #1E90FF; /* Cor de fundo azul */
+    color: white; /* Texto branco */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+.voltar-button:hover {
+    background-color: #00BFFF; /* Cor de fundo mais clara ao passar o mouse */
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin: 0.5em 0; /* Margem reduzida para parágrafos */
+}
